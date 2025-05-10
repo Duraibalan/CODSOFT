@@ -11,7 +11,7 @@ public class Numbergame {
             System.out.println("Enter choice");
             int un=x.nextInt();
             if(c==un){
-                System.out.println("the guese is correct");
+                System.out.println("the guess is correct");
                 System.out.println("your score is"+score);
                 ch=0;
                 break;
