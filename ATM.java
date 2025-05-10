@@ -2,7 +2,7 @@ import java.util.*;
 public class ATM {
     public static void main(String [] args){
         Scanner x=new Scanner(System.in);
-        System.out.println("Welcome to the akash ATM");
+        System.out.println("Welcome to the ABC ATM");
         System.out.println("Enter initial balance");
         int balance=x.nextInt();
         int ch=9;
@@ -23,7 +23,7 @@ public class ATM {
                     cb.check(balance);
                     break;
                 case 4:
-                    System.out.println("Thanks for visiting akash ATM");
+                    System.out.println("Thanks for visiting ABC ATM");
             }
         }
     }
